@@ -1,13 +1,16 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>I Am Miller. Welcome.</title>
 		<style>
+			body {
+				text-align: center;
+			}
+
 			#content
 			{
-				width: 700px;
+				max-width: 700px;
 				color: #333;
 				margin: 0 auto;
 				padding-bottom: 100px;
@@ -43,17 +46,39 @@
 				color: #000;
 				text-decoration: underline;
 			}
+
+			.icon-github {
+				content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAswAAALMBudOKBAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIJSURBVEiJtda/TxVBEAfwzz3A8ESiUV5nJBQaNTYQjQatjLGgMCEW/glQ2xlrK2NLQakJjbFDY2FlQmVDoVJIA4JR8EeMikAia3Fzj+P5eCEIk2zu7vud+U52dnb3spSS/bRK8ZJl2eG9Et2ilVISs5jBJzzFjQLf6cAQJvERM3U8yBpSw5hAT/DtOIHLuI6zOBTcMTxqEl8rJxhu4pDwDQv404L/vg03nFLSHpWqblPOIzG2s1Zclc1FftvCcbf2ppzgxz4kWEF9DR5qXsf/GRPFHjuPjX1IkHCpDXdwcS9rU7K1dpxpQrzDFNZwPEYNR4P/imV5C79Hp3yPnGzQOQ2Ltk7rAdqifpUd7OBKPNsitqy1CKsl4BWyCBiTb6SRFuIj4TMW31loFHqrYpoFMBqOgyXsJ7qbiHcHV/gNBj5awhYqWCrVbDaeAyWsC33+tb7gCitiZkvYUgUvS0BvQTSIfWmSoBErYnpL2BRcsTml8ZhmFfOBTbZYg8nwmUc1sPGS3tXC8UkAK+gvHeG30NkiQWf41OK7PzQSHpeP6yOYDmIOQ7u8cOZCYxpdKaV6S8qyrAN3cVveIa/xQt52n/FLfi+Q93wXenAB13AO67iPeyml32z2fN2yLDuImxE0gFM4oLmty3fyNJ7jWUrpwxa9nfxVZFlWXDwdJeFVLKeUNlrG7vdvy1+GQrpgQKO7FQAAAABJRU5ErkJggg==');
+			}
+
+			.icon-stack {
+				content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHkSURBVEiJrdU7axVRFIbhZ8vRqHgpRA0YFDHEgAoRDWiTQuwCQcFO8FJYaSGCiiik0x9gK0QLSWEjEhQkvyCCiBgRbESbJIVVghdCtsVZg3N0PDmTuGAxM9+6vHsv9syknLPVWkppB55iY855oCX2nwANLGAttuSc54vYmhU0O5JSmkop7S20nPMiPiDhQDm/NgA3MYiHKaVU0qfjenC1gMuYwxCulvR3cT3Ukp1zru04hYxv6A9tJLTJltwOmvVjqEJ/FA2n0MC+eJ6tC5iMwnHsKulb8Tlid2LcC/G8vSNArOwuvkfhPG5hXcRPYgk/MYBXkXei4x1Eo15MRHHGRwxH7H5or3EFo+itBSiBhqN5AZqIU/MMg5U1bZqdx0tcj+0Xb31XjGk+IO+LWF3Ak9JKM2bxGBfQEz6Okba7bgPowcVoOvMHrFj57WXHWmp4Fp9wuAKWYtbX8Lw0ngc4E3XHqgANv20z9qArpdQXc56J0cyEv8BYAI7jK45G3XoV1qgS0Rez/pf9CPBwm5y2gLe4hO7wnaX7bmzCbs2drAiwqPl1nNacf9lhA7bhy0oB53BvueKc83jrL6FzwCze+PtoFv/X8n19QM55TPO0rNqqADdSSnM1euyvCzhdo3nZlqrEX2dTDO8HBn/iAAAAAElFTkSuQmCC');
+			}
+
+			.icon-linked {
+				content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAwgAAAMIBT4kc1wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFASURBVEiJ3daxSh1REAbgb+5KrAI3irVFmlS3sRfiA4ghT5BOSOuWqe0lZR4hhZDGViGVNw+g1ukCVwIJXBWPhefC8YAR77oWGRjY+c/s/+/MsDsrpQQNWowxRZrTp5mjRZO5NTjsQHqfH2ZubQ/kM2/lkvoSGKt6foltrOID/nQUmKqAryklM8eXrlUM3LVhFS97AisVr/EZm9jDVdcKIl/0ZnWLjvG28O8Z/1Rg7/EXH/EGS9jA0X0iZUkH1ZD3M75VYK+wXuZlfIBvHhjyg5ZSmqSUjiLiZUQMCvwaO6qWP1oAImIHv3AaEaNC5AQ/OwlExCJ28QKv8a5KOesk4PZdWSjiUXX+u6tAVHHzr+S5ZvAY+z8ELnrkvwi3S2FtBmBSJAyxiHP5254faqXImebz+h74wTOszH6Xft+/LTdCyjh6rS0W/wAAAABJRU5ErkJggg==');
+			}
+
+			.icon-mail {
+				content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEzSURBVEiJ1dYxL0RBFMXx3ywaodgCUUsU9BKJjkJB4jModQpRqUS9hWQlEr1Ssa2PQUhEopFQEhVrFK5kg11r7RRuMs079/zPe/flvZmUc1ayKkXpGISU0jSW+xj4itOc8xlsoolcYG3DeSF4xk0FT30ay3d1XUG9YMAxJOzr/3jqwVaNb2EHz30AN7Eb8CpcYCpC5nD5B/g1FoI1FWwZD1gPYRgHPcCPMBqM9WBmn5pOMBZNK7jrAnyPtfCMBaNV/2K4w2oYxtHoAG9gInpX29xQW/MhRsK8gccW7REboY1EbztOx8e/wnyAJrEVazKuzUdPJ8aPM35B7ePdtMy6FlpHf/pI6aKa3v9bMIOBbky/Ceipim84FdwW5N8OYAhLhQL2Us5ZSmkWiwpsmenfnyreAIAgIGKPxKFUAAAAAElFTkSuQmCC');
+			}
 		</style>
 	</head>
 	<body>
 		<div id="content">
-		<h1>Hi, I'm Matt.</h1>
-		<p><a href="https://www.linkedin.com/in/iammatthewmiller" title="LinkedIn - IAmMatthewMiller" target="_new">I work in IT</a> but I'm also interested in Android app development.</p>
-		<p>I love bridging cultural gaps with technology. Here's a <a href="http://gshoapp.com/" title="gSho - Japanese Dictionary" target="_new">Japanese-English dictionary</a> I made for Android. I also <a href="https://github.com/MasterKale" title="GitHub - MasterKale" target="_new">contribute to open source projects</a> that help others learn the Japanese language.　近いうちに社員として日本に戻ればいいな。。</p>
-		<p>Google+: <a href="https://plus.google.com/+MatthewMillerTime/posts" target="_new">+MatthewMillerTime</a>
-		<br />
-		Direct: <a href="mailto:matthew@iammiller.com">matthew@iammiller.com</a> (日本語でもOKです！）</p>
+			<h1>Hi, I'm Matt.</h1>
+			<p>I'm a <a href="https://github.com/MasterKale?tab=repositories" title="GitHub" target="_new">developer</a> with a fondness for Python and AngularJS.</p>
+			<p>I love bridging cultural gaps with technology. Here's a responsive <a href="http://gshoapp.com/" title="gSho - Japanese Dictionary" target="_new">Japanese-English dictionary</a> I made for Android. I also <a href="https://github.com/MasterKale" title="GitHub - MasterKale" target="_new">contribute to open source projects</a> that help others learn the Japanese language.</p>
+			<p>If you're curious, you can see more of my work here:</p>
+			<p>
+				<span class="icon icon-github"></span>&nbsp;<a href="https://github.com/MasterKale?tab=repositories" title="GitHub" target="_blank">MasterKale</a>&nbsp;
+				<span class="icon-stack"></span>&nbsp;<a href="http://stackoverflow.com/users/2133271/iamkale" title="Stack Overflow" target="_blank">IAmKale</a>&nbsp;
+				<span class="icon-linked"></span>&nbsp;<a href="https://www.linkedin.com/in/iammatthewmiller" title="LinkedIn" target="_blank">IAmMatthewMiller</a>
+			</p>
+			<p>Or feel free to contact me directly:</p>
+			<p>
+				<span class="icon-mail"></span> <a href="mailto:matthew@iammiller.com?subject=Hello!" title="Email">matthew@iammiller.com</a>
+			</p>
 		</div>
 	</body>
-	<!-- Hosted on Github -->
 </html>
