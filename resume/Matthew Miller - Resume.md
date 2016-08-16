@@ -90,23 +90,24 @@
 ---------
 #### Projects
 
-**gSho**, Japanese Dictionary for Android <span class="right-float">http://gshoapp.com</span>
+**Goon Discord Network**, Discord Server Directory <span class="right-float">http://discordgoons.com</span>
 
-<p class="left-pad">After switching from iOS to Android, I noted the lack of high-quality Japanese-to-English dictionary apps available in the Google Play Store. In response to this I developed and launched gSho, one of the first J/E dictionary apps to feature layouts optimized for both phones and tablets, as well as a host of other useful features. Since launch the app has maintained an average install base of over 600 users, and has grossed over $100 in revenue from In-App Payments.</p>
+<p class="left-pad">A directory of SomethingAwful-affiliated Discord servers. Includes a website displaying enrolled servers, as well as a Discord bot that allows server administrators to create "members only" servers. Handles user authentication within Discord, and enables cross-server, automatic privilege elevation across enrolled servers.</p>
+
+**GoonAuth2**, Authentication REST API <span class="right-float">https://github.com/MasterKale/GoonAuth2</span>
+
+<p class="left-pad">This simple Falcon- and Redis-powered REST API service that can be used to verify membership in the SomethingAwful internet forum.</p>
 
 **SHIFTEE**, Shift Management Solution <span class="right-float">https://shifteeapp.com</span>
 
 <p class="left-pad">SHIFTEE is a shift management service targeted at businesses that need to coordinate shifts between their part-time employees. It aims to provide businesses with a mobile-friendly alternative to pen-and-paper-based schedule management.</p>
 
-**WanaKanaJava**, Java Romaji IME <span class="right-float">https://github.com/MasterKale/WanaKanaJava</span>
+**gSho**, Japanese Dictionary for Android <span class="right-float">http://gshoapp.com</span>
 
-<p class="left-pad">A Java port of WanaKana, a Javascript IME, this library automatically converts romaji into kana as a user types. The code is open source and is available for reuse under an MIT license.</p>
-
-**ImageNOW**, ServiceNow Plugin <span class="right-float">https://youtu.be/E26TSMWfewE</span>
-
-<p class="left-pad">ImageNOW is an Aviary-powered image editor plugin that can be used to attached images directly to records within ServiceNow. Created in the eight-hour ServiceNow Knowledge '15 CreateNow hackathon with two team members.</p>
+<p class="left-pad">One of the first Android J/E dictionary apps to feature layouts optimized for both phones and tablets, as well as a host of other useful features. Since launch the app has maintained an average install base of over 600 users, and has grossed over $100 in revenue from In-App Payments.</p>
 
 ---------
+<p class="print-show">&nbsp;</p>
 #### Work History
 
 **Lead Fullstack Developer**, STS Innovation, Inc. <span class="right-float">07/2014 - Present</span>
@@ -129,3 +130,13 @@
 <p class="left-pad">Received the Japanese Language &amp; Culture Certification for successful completion of a prescribed course list emphasizing Japanese language and historic and modern culture.</p>
 <p class="print-show text-center"><br>See this resume live at <a href="">https://iammiller.com/resume/</a></p>
 <!-- END RESUME -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75801445-2', 'auto');
+  ga('send', 'pageview');
+</script>
