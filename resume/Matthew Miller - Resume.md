@@ -84,8 +84,8 @@
 ---------
 #### Skills & Expertise
 
-**Languages** <span class="right-float">Python, JavaScript, PostgreSQL, MySQL, Java (Android), TypeScript</span>
-**Frameworks** <span class="right-float">Django Rest Framework, Falcon, AngularJS, jQuery, LESS, SCSS, Hugo</span>
+**Languages** <span class="right-float">Python, PostgreSQL, TypeScript/JavaScript, SASS, Java (Android)</span>
+**Frameworks** <span class="right-float">Django, Falcon, Angular2, Docker, Vagrant, Kubernetes</span>
 
 ---------
 #### Projects
