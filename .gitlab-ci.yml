@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+push_to_do:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cd /var/www/
+    - git clone https://gitlab.com/IAmKale/iammiller.com.git .iammiller.com
+    - rm -rf iammiller.com
+    - mv .iammiller.com iammiller.com
+  tags:
+    - iammiller
