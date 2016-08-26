@@ -6,8 +6,8 @@ push_to_do:
   only:
     - master
   script:
+    - cp -r * /var/www/.iammiller.com
     - cd /var/www/
-    - git clone https://gitlab.com/IAmKale/iammiller.com.git .iammiller.com
     - rm -rf iammiller.com
     - mv .iammiller.com iammiller.com
   tags:
