@@ -6,6 +6,7 @@ push_to_do:
   only:
     - master
   script:
+    - mkdir -p /var/www/.iammiller.com
     - cp -r * /var/www/.iammiller.com
     - cd /var/www/
     - rm -rf iammiller.com
