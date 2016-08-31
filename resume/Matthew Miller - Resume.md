@@ -55,6 +55,10 @@
 		.print-hide {
 			display: none;
 		}
+
+		.live-link {
+			margin-top: 25px !important;
+		}
 	}
 </style>
 
@@ -87,7 +91,24 @@
 **Languages** <span class="right-float">Python, PostgreSQL, TypeScript/JavaScript, SASS, Java (Android)</span>
 **Frameworks** <span class="right-float">Django, Falcon, Angular2, Docker, Vagrant, Kubernetes</span>
 
+
 ---------
+#### Work History
+
+**Full Stack Developer**, Multi Media Services <span class="right-float">05/2016 - Present</span>
+
+<p class="left-pad">Designing and creating video streaming web applications to operate at scale. Stack includes Angular2, Django Rest Framework, and Kubernetes and AWS for scalable hosting.</p>
+
+**Lead Full Stack Developer**, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span>
+
+<p class="left-pad">Developed and maintain a highly focused, low-cost SaaS web app for shift management using Django Rest Framework and AngularJS. Work directly with clients to gather specifications for upcoming projects. Manage project requirements and timelines and maintain regular contact with clients. Established and manage coding and deployment standards to ensure consistency across Debian-based hosting environments. Provide Japanese/English bilingual application development support to colleagues in Japan.</p>
+
+**IT Operations Manager**, US Battery Manufacturing Co <span class="right-float">04/2011 - 12/2014</span>
+
+<p class="left-pad">Managed a Windows Server 2012 domain for 75 users, including 12 virtualized Windows Server 2008 R2 and Linux servers running on 3 VMWare (ESXi) hosts. Successfully implemented a WDS/MDT-based imaging solution to reduce workstation deployment times by 50%. Automated network and PC administration using Python and Powershell scripts. Introduced formalized process documentation standards to preserve critical information and guide restoration workflows during disaster recovery.</p>
+
+---------
+<p class="print-show spacer">&nbsp;<br><br></p>
 #### Projects
 
 **Goon Discord Network**, Discord Server Directory <span class="right-float">http://discordgoons.com</span>
@@ -104,23 +125,7 @@
 
 **gSho**, Japanese Dictionary for Android <span class="right-float">http://gshoapp.com</span>
 
-<p class="left-pad">One of the first Android J/E dictionary apps to feature layouts optimized for both phones and tablets, as well as a host of other useful features. Since launch the app has maintained an average install base of over 600 users, and has grossed over $100 in revenue from In-App Payments.</p>
-
----------
-<p class="print-show">&nbsp;</p>
-#### Work History
-
-**Full Stack Developer**, Multi Media Services <span class="right-float">05/2016 - Present</span>
-
-<p class="left-pad">Designing and creating video streaming web applications to operate at scale. Stack includes Angular2, Django Rest Framework, and Kubernetes and AWS for scalable hosting.</p>
-
-**Lead Full Stack Developer**, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span>
-
-<p class="left-pad">Developed and maintain a highly focused, low-cost SaaS web app for shift management using Django Rest Framework and AngularJS. Work directly with clients to gather specifications for upcoming projects. Manage project requirements and timelines and maintain regular contact with clients. Established and manage coding and deployment standards to ensure consistency across Debian-based hosting environments. Provide Japanese/English bilingual application development support to colleagues in Japan.</p>
-
-**IT Operations Manager**, US Battery Manufacturing Co <span class="right-float">04/2011 - 12/2014</span>
-
-<p class="left-pad">Managed a Windows Server 2012 domain for 75 users, including 12 virtualized Windows Server 2008 R2 and Linux servers running on 3 VMWare (ESXi) hosts. Successfully implemented a WDS/MDT-based imaging solution to reduce workstation deployment times by 50%. Automated network and PC administration using Python and Powershell scripts. Introduced formalized process documentation standards to preserve critical information and guide restoration workflows during disaster recovery.</p>
+<p class="left-pad">One of the first Android J/E dictionary apps to feature layouts optimized for both phones and tablets, as well as a host of other useful features. Since launch the app has maintained an average install base of over 600 users, and has grossed over $100 in IAP revenue.</p>
 
 ---------
 #### Education
@@ -132,6 +137,7 @@
 **International Christian University (Tokyo, Japan)** <span class="right-float">2008-2009</span>
 
 <p class="left-pad">Received the Japanese Language &amp; Culture Certification for successful completion of a prescribed course list emphasizing Japanese language and historic and modern culture.</p>
+<p class="print-show text-center live-link">See this resume live at <a href="">https://iammiller.com/resume/</a></p>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -141,5 +147,4 @@
   ga('create', 'UA-75801445-2', 'auto');
   ga('send', 'pageview');
 </script>
-<p class="print-show text-center"><br>See this resume live at <a href="">https://iammiller.com/resume/</a></p>
 <!-- END RESUME -->
