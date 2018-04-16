@@ -1,9 +1,11 @@
-push_to_do:
+pages:
   only:
     - master
+  stage: deploy
   script:
-    - mkdir -p /var/www/.iammiller.com
-    - cp -r * /var/www/.iammiller.com
-    - cd /var/www/
-    - rm -rf iammiller.com
-    - mv .iammiller.com iammiller.com
+    - mkdir -p .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
