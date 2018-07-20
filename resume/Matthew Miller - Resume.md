@@ -94,9 +94,9 @@
 ---------
 #### Skills & Expertise
 
-**Languages** <span class="right-float">Python, JavaScript/TypeScript, SCSS, YAML</span>
+**Languages** <span class="right-float">Python, JavaScript/TypeScript, SCSS, YAML, GraphQL</span>
 <br>
-**Frameworks** <span class="right-float">Django, VueJS, Angular, React, Docker, Kubernetes</span>
+**Frameworks** <span class="right-float">Angular, React, VueJS, Django, Graphene, Docker</span>
 
 ---------
 #### Work History
