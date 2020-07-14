@@ -132,7 +132,7 @@
 
 <p class="left-pad">Created a directory of over 100 SA-affiliated Discord servers with accompanying Discord bot. Discord server administrators can enroll their servers in the directory to make it easy for people to find theme-specific servers populated with other forum members. The bot has enabled over 13,000 forum members to verify forum membership in one GDN-enrolled Discord server, then automatically receive elevated access permissions in other GDN-enrolled servers. This allows administrators to maintain "members-only" servers in which the majority of participating members are SA forum members.</p>
 
-**SimpleWebauthn** <span class="right-float">https://simplewebauthn.dev/</span>
+**SimpleWebAuthn** <span class="right-float">https://simplewebauthn.dev/</span>
 
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
