@@ -1,4 +1,7 @@
-<!-- Render in python-markdown for best effect (https://github.com/waylan/Python-Markdown) -->
+<!--
+	Rendered with MarkdownPreview in Sublime Text 3 (https://github.com/facelessuser/MarkdownPreview)
+	- Command Palette > "Markdown Preview: Save to HTML" > "markdown"
+-->
 <style type="text/css">
 	/**
 	 * This width helps the browser view to better match printer output
