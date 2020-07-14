@@ -104,7 +104,7 @@
 ---------
 #### Work History
 
-**Senior Full Stack Developer**, BCG Digital Ventures <span class="right-float">11/2018 - Present</span>
+**Senior Full Stack Engineer**, BCG Digital Ventures <span class="right-float">11/2018 - Present</span>
 
 <p class="left-pad">Work with corporate partners from Fortune 100 companies to rapidly build out scalable web-based MVPs. Lead engineering teams across the stack on more than four bottom-up product builds to deliver high-quality codebases. Collaborate directly with Product and Design to help define better UI/UX and guide feature scope. Provide vital engineering insights to help contextualize early-stage ethnographic research and concept ideation, and pitch proposals to corporate boards.</p>
 
