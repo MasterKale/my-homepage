@@ -97,16 +97,20 @@
 ---------
 #### Skills & Expertise
 
-**Languages** <span class="right-float">Python, JavaScript/TypeScript, SCSS, YAML, GraphQL</span>
+**Languages** <span class="right-float">JavaScript (ES6), TypeScript, HTML5, SCSS, Python, YAML, GraphQL</span>
 <br>
-**Frameworks** <span class="right-float">Angular, React, VueJS, Django, Graphene, Docker</span>
+**Frameworks** <span class="right-float">React, VueJS, Apollo, MobX, Webpack, Django, Docker</span>
 
 ---------
 #### Work History
 
-**UI Developer**, DHAP Digital, Inc. <span class="right-float">10/2016 - Present</span>
+**Senior Full Stack Developer**, BCG Digital Ventures <span class="right-float">11/2018 - Present</span>
 
-<p class="left-pad">Architect and lead development on enterprise-grade websites and single-page applications. Work directly with clients to establish and clarify business requirements, as well as coordinate development efforts between team members to ensure timely deliverables.</p>
+<p class="left-pad">Work with corporate partners from Fortune 100 companies to rapidly build out scalable web-based MVPs. Lead engineering teams across the stack on more than four bottom-up product builds to deliver high-quality codebases. Collaborate directly with Product and Design to help define better UI/UX and guide feature scope. Provide vital engineering insights to help contextualize early-stage ethnographic research, concept ideation, and pitch proposals to corporate boards.</p>
+
+**UI Developer**, DHAP Digital, Inc. <span class="right-float">10/2016 - 11/2018</span>
+
+<p class="left-pad">Architected and lead development on enterprise-grade websites and single-page applications. Worked directly with clients to establish and clarify business requirements, as well as coordinated development efforts between team members to ensure timely deliverables.</p>
 
 **Full Stack Developer**, Multi Media Services <span class="right-float">05/2016 - 10/2016</span>
 
@@ -114,27 +118,23 @@
 
 **Lead Full Stack Developer**, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span>
 
-<p class="left-pad">Developed and maintained a highly focused, low-cost SaaS web app for shift management using Django Rest Framework and AngularJS. Worked directly with clients to gather specifications for upcoming projects. Managed project requirements and timelines and maintained regular contact with clients. Established and managed coding and deployment standards to ensure consistency across Debian-based hosting environments. Provided Japanese/English bilingual application development support to colleagues in Japan.</p>
+<p class="left-pad">Developed and maintained a highly focused, low-cost SaaS web app for shift management using Django Rest Framework and AngularJS. Managed project requirements and timelines and maintained regular contact with clients. Provided Japanese/English bilingual application development support to colleagues in Japan.</p>
 
 ---------
 <p class="print-show spacer">&nbsp;<br><br><br></p>
 #### Projects
 
-**Tangerine**, Banking Portal (DHAP Digital, Inc.) <span class="right-float">https://www.tangerine.ca</span>
+**DV Mentors 2019**, BCG Digital Ventures
 
-<p class="left-pad">Helped architect and lead development of an enterprise-grade, multi-lingual AngularJS 1.5 single-page application now in production for online Canadian bank Tangerine. Created several high-level components and services, including "flow" service for declaring and orchestrating step-by-step banking-related processes. Also created sections responsible for: displaying user's list of accounts; transferring money between user's accounts; new user enrollment; and for verifying user identity via knowledge-based authentication.</p>
+<p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
 
 **Goon Discord Network**, Discord Server Directory <span class="right-float">https://goondiscordnetwork.com</span>
 
-<p class="left-pad">Architected and maintain a Python-powered Discord bot "service" that assists with discoverability of nearly 100 affiliated Discord servers. The Django-powered homepage displays a live, searchable list of enrolled servers. The bot also handles forum membership authentication to enable server administrators to create "members only" servers. Automatic privilege elevation across enrolled servers offers streamlined UX to users joining multiple servers.</p>
+<p class="left-pad">Created a directory of over 100 SA-affiliated Discord servers with accompanying Discord bot. Discord server administrators can enroll their servers in the directory to make it easy for people to find theme-specific servers populated with other forum members. The bot has enabled over 13,000 forum members to verify forum membership in one GDN-enrolled Discord server, then automatically receive elevated access permissions in other GDN-enrolled servers. This allows administrators to maintain "members-only" servers in which the majority of participating members are SA forum members.</p>
 
-**GoonAuth2**, Authentication REST API <span class="right-float">https://github.com/MasterKale/GoonAuth2</span>
+**SimpleWebauthn** <span class="right-float">https://simplewebauthn.dev/</span>
 
-<p class="left-pad">A simple Falcon- and Redis-powered REST API service that can be used to verify membership in the Something Awful internet forum.</p>
-
-**gSho**, Japanese Dictionary for Android <span class="right-float">http://gshoapp.com</span>
-
-<p class="left-pad">One of the first Android J/E dictionary apps to feature layouts optimized for both phones and tablets, as well as a host of other useful features. Since launch the app has maintained an average install base of over 600 users, and has grossed over $100 in IAP revenue.</p>
+<p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
 ---------
 #### Education
