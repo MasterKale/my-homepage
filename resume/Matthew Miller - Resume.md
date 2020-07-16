@@ -39,7 +39,7 @@
 		padding: 0;
 	}
 
-	.markdown-body .job-description { list-style-type: '👾'; }
+	/*.markdown-body .job-description { list-style-type: '👾'; }*/
 
 	/**
 	 * - PNG icons from https://www.flaticon.com/packs/font-awesome
