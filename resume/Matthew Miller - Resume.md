@@ -106,10 +106,6 @@
 		.print-hide {
 			display: none;
 		}
-
-		.live-link {
-			margin-top: 25px !important;
-		}
 	}
 </style>
 
@@ -206,5 +202,4 @@ Deus Ex 🕵️‍♂️ Titanfall 🤖 Team Fortress 2 🔥 Beat Saber ⚔️
 
 **International Christian University (Tokyo, Japan)** <span class="right-float">2008-2009</span>
 
-<p class="print-show text-center live-link">See this resume live at <a href="">https://millerti.me/resume/</a></p>
 <!-- END RESUME -->
