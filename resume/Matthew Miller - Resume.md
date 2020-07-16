@@ -124,7 +124,7 @@
 		</li>
 		<li>
 			<span id="linkedin"></span>
-			<a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>		
+			<a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
 		</li>
 		<li>
 			<span id="so"></span>
@@ -188,7 +188,7 @@ On the search for opportunities to build cool things and mentor those starting o
 <p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
 
 **Public Speaking**
-<p class="left-pad">Indepdently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p>
+<p class="left-pad">Independently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p>
 
 ---------
 #### Favorite Games
