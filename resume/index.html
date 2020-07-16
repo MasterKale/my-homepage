@@ -1080,6 +1080,25 @@ body .markdown-body
         padding: 0px !important;
     }
 
+    .markdown-body .header-meta {
+        list-style: none;
+        margin: 0 auto;
+        margin-bottom: 0.25em;
+        padding-left: 0;
+        display: flex;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .markdown-body .header-meta li {
+        display: inline-block;
+        flex: 0 1 10em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .markdown-body .job-description { list-style-type: '👾'; }
+
     /**
      * - PNG icons from https://www.flaticon.com/packs/font-awesome
      * - PNG converted to base64 with https://www.base64-image.de/
@@ -1122,6 +1141,14 @@ body .markdown-body
             display: block;
         }
 
+        .markdown-body .header-meta {
+            width: 100%;
+        }
+
+        .markdown-body .header-meta li {
+            flex: 1;
+        }
+
         span#github::before {
             content: 'GitHub: ';
         }
@@ -1148,11 +1175,30 @@ body .markdown-body
 
 <div class="text-center">
     <h3>Matthew Miller</h3>
-    <span class="phone">(951) 751-7780</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="email">matthew@millerti.me</span>
-    <br>
-    <span id="github"></span> <a href="https://github.com/MasterKale?tab=repositories" target="_blank">MasterKale</a>&nbsp;&nbsp;&nbsp;&nbsp;<span id="so"></span> <a href="http://stackoverflow.com/users/2133271/iamkale" target="_blank">IAmKale</a>&nbsp;&nbsp;&nbsp;&nbsp;<span id="linkedin"></span> <a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
+    <ul class="header-meta">
+        <li>(951) 751-7780</li>
+        <li>matthew@millerti.me</li>
+        <li>Long Beach, CA</li>
+    </ul>
+    <ul class="header-meta">
+        <li>
+            <span id="github"></span>
+            <a href="https://github.com/MasterKale" target="_blank">MasterKale</a>
+        </li>
+        <li>
+            <span id="linkedin"></span>
+            <a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>        
+        </li>
+        <li>
+            <span id="so"></span>
+            <a href="http://stackoverflow.com/users/2133271/iamkale" target="_blank">IAmKale</a>
+        </li>
+    </ul>
 </div>
 
+<hr />
+<h4 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link"></a></h4>
+<p>On the search for opportunities to build cool things and mentor those starting out.</p>
 <hr />
 <h4 id="skills-expertise">Skills &amp; Expertise<a class="headerlink" href="#skills-expertise" title="Permanent link"></a></h4>
 <p><strong>Languages</strong> <span class="right-float">JavaScript (ES6), TypeScript, HTML5, SCSS, Python, YAML, GraphQL</span>
@@ -1161,34 +1207,44 @@ body .markdown-body
 <hr />
 <h4 id="work-history">Work History<a class="headerlink" href="#work-history" title="Permanent link"></a></h4>
 <p><strong>Senior Full Stack Engineer</strong>, BCG Digital Ventures <span class="right-float">11/2018 - Present</span></p>
-<p class="left-pad">Work with corporate partners from Fortune 100 companies to rapidly build out scalable web-based MVPs. Lead engineering teams across the stack on more than four bottom-up product builds to deliver high-quality codebases. Collaborate directly with Product and Design to help define better UI/UX and guide feature scope. Provide vital engineering insights to help contextualize early-stage ethnographic research and concept ideation, and pitch proposals to corporate boards.</p>
+<ul class="job-description">
+    <li>Collaborate with corporate partners from Fortune 100 companies to architect and rapidly build out scalable web-based MVPs.</li>
+    <li>Worked directly with Product and Design to define and then build out an interface for real-time configuration of a computer-vision-powered industrial safety system.</li>
+    <li>Inherited and enhanced an AI event processing service to handle more than 100,000 CV events per day across 8 cameras with an average latency of 220ms</li>
+</ul>
 
 <p><strong>UI Developer</strong>, DHAP Digital, Inc. <span class="right-float">10/2016 - 11/2018</span></p>
-<p class="left-pad">Architected and lead development on enterprise-grade websites and single-page applications. Worked directly with clients to establish and clarify business requirements, as well as coordinated development efforts between team members to ensure timely deliverables.</p>
+<ul class="job-description">
+    <li>Architected and lead development on enterprise-grade websites and single-page applications while meeting directly with clients for requirements gathering.</li>
+    <li>Built out library of reusable front end components that helped skeleton crew of five developers deliver a complex mobile banking rewrite in less than 10 months.</li>
+</ul>
 
 <p><strong>Full Stack Developer</strong>, Multi Media Services <span class="right-float">05/2016 - 10/2016</span></p>
-<p class="left-pad">Architected and produced white-label video streaming and image hosting web applications to operate at scale. Stack included Angular and Django Rest Framework, with Kubernetes and AWS for scalable hosting.</p>
+<ul class="job-description">
+    <li>Single-handedly designed and produced the front end for white-label video streaming and image hosting web applications to operate at scale.</li>
+</ul>
 
 <p><strong>Full Stack Developer</strong>, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span></p>
-<p class="left-pad">Developed and maintained a highly focused, low-cost SaaS web app for shift management using Django Rest Framework and AngularJS. Managed project requirements and timelines and maintained regular contact with clients. Provided Japanese/English bilingual application development support to colleagues in Japan.</p>
-
 <hr />
-<p><p class="print-show spacer">&nbsp;<br><br><br></p></p>
+<p><p class="print-show spacer">&nbsp;<br><br><br><br></p></p>
 <h4 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link"></a></h4>
-<p><strong>DV Mentors 2019</strong>, BCG Digital Ventures</p>
-<p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
-
 <p><strong>Goon Discord Network</strong>, Discord Server Directory <span class="right-float"><a href="https://goondiscordnetwork.com">https://goondiscordnetwork.com</a></span></p>
-<p class="left-pad">Created a directory of over 100 SA-affiliated Discord servers with accompanying Discord bot. Discord server administrators can enroll their servers in the directory to make it easy for people to find theme-specific servers populated with other forum members. The bot has enabled over 13,000 forum members to verify forum membership in one GDN-enrolled Discord server, then automatically receive elevated access permissions in other GDN-enrolled servers. This allows administrators to maintain "members-only" servers in which the majority of participating members are SA forum members.</p>
+<p class="left-pad">Created a community of 100+ SA-affiliated Discord servers to make it easy for members to find servers populated with other forum members. The accompanying Discord bot has enabled over 13,000 members to verify forum membership to receive elevated access permissions across GDN-enrolled Discord servers. This enables administrators to easily maintain "members-only" servers in which the majority of participating members are forum members.</p>
 
 <p><strong>SimpleWebAuthn</strong> <span class="right-float"><a href="https://simplewebauthn.dev/">https://simplewebauthn.dev/</a></span></p>
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
+<p><strong>DV Mentors</strong>, BCG Digital Ventures</p>
+<p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
+
+<p><strong>Public Speaking</strong>
+<p class="left-pad">Indepdently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p></p>
+<hr />
+<h4 id="favorite-games">Favorite Games<a class="headerlink" href="#favorite-games" title="Permanent link"></a></h4>
+<p>Deus Ex 🕵️‍♂️ Titanfall 🤖 Team Fortress 2 🔥 Beat Saber ⚔️</p>
 <hr />
 <h4 id="education">Education<a class="headerlink" href="#education" title="Permanent link"></a></h4>
-<p><strong>University of California, Riverside</strong> <span class="right-float">06/2011</span></p>
-<p class="left-pad">BS in International Business and a minor in Japanese, Magna Cum Laude</p>
-
+<p><strong>University of California, Riverside</strong>, BS in Intl. Business, Magna Cum Laude<span class="right-float">06/2011</span></p>
 <p><strong>International Christian University (Tokyo, Japan)</strong> <span class="right-float">2008-2009</span></p>
 <p class="print-show text-center live-link">See this resume live at <a href="">https://millerti.me/resume/</a></p>
 
