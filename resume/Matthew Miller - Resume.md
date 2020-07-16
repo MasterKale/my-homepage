@@ -193,7 +193,7 @@ On the search for opportunities to build cool things and mentor those starting o
 ---------
 #### Favorite Games
 
-Deus Ex 🕵️‍♂️ Titanfall 🤖 Team Fortress 2 🔥 Beat Saber ⚔️
+<span contenteditable="true">Deus Ex 🕵️‍♂️ Titanfall 🤖 Team Fortress 2 🔥 Beat Saber ⚔️</span>
 
 ---------
 #### Education
