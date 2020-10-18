@@ -190,10 +190,11 @@ On the search for opportunities to build cool things and mentor those starting o
 **Public Speaking**
 <p class="left-pad">Independently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p>
 
----------
+<!-- ---------
 #### Favorite Games
 
 <span contenteditable="true">Deus Ex 🕵️‍♂️ Titanfall 🤖 Team Fortress 2 🔥 Beat Saber ⚔️</span>
+-->
 
 ---------
 #### Education
