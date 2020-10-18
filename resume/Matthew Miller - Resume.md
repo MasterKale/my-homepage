@@ -175,13 +175,13 @@ On the search for opportunities to build cool things and mentor those starting o
 <p class="print-show spacer">&nbsp;<br><br><br><br></p>
 #### Projects
 
-**Goon Discord Network**, Discord Server Directory <span class="right-float">https://goondiscordnetwork.com</span>
-
-<p class="left-pad">Created a community of 100+ SA-affiliated Discord servers to make it easy for members to find servers populated with other forum members. The accompanying Discord bot has enabled over 13,000 members to verify forum membership to receive elevated access permissions across GDN-enrolled Discord servers. This enables administrators to easily maintain "members-only" servers in which the majority of participating members are forum members.</p>
-
 **SimpleWebAuthn** <span class="right-float">https://simplewebauthn.dev/</span>
 
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
+
+**Goon Discord Network**, Discord Server Directory <span class="right-float">https://goondiscordnetwork.com</span>
+
+<p class="left-pad">Created a community of 100+ SA-affiliated Discord servers to make it easy for members to find servers populated with other forum members. The accompanying Discord bot has enabled over 13,000 members to verify forum membership to receive elevated access permissions across GDN-enrolled Discord servers. This enables administrators to easily maintain "members-only" servers in which the majority of participating members are forum members.</p>
 
 **DV Mentors**, BCG Digital Ventures
 
