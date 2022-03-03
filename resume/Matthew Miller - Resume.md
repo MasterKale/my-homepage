@@ -178,7 +178,7 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 </ul>
 
 ---------
-<p class="print-show spacer">&nbsp;<br><br><br><br></p>
+<p class="print-show spacer">&nbsp;<br><br><br></p>
 #### Projects
 
 **SimpleWebAuthn**, TypeScript WebAuthn Libraries <span class="right-float">https://github.com/MasterKale/SimpleWebAuthn</span>
@@ -194,6 +194,7 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 <p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
 
 **Public Speaking**
+
 <p class="left-pad">Independently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p>
 
 <!-- ---------
