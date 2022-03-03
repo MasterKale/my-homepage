@@ -157,7 +157,7 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 **Technical Leader**, Duo Security <span class="right-float">12/2020 - Present</span>
 
 <ul class="job-description">
-	<li>Lead development on Duo's Passwordless SSO experience to leverage WebAuthn for more secure customer authentication.</li>
+	<li>Lead development on Duo's new Passwordless SSO experience to leverage WebAuthn for more secure customer authentication.</li>
 	<li>Work across teams as Duo's WebAuthn SME to optimize WebAuthn implementations in Duo's core products.</li>
 	<li>Represent Cisco at the Web Authentication Working Group and FIDO Technical Working Group to advance the cause of phish-proof user authentication.</li>
 </ul>
