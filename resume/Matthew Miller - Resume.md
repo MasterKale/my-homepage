@@ -154,7 +154,15 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 ---------
 #### Work History
 
-**Senior Full Stack Engineer**, BCG Digital Ventures <span class="right-float">11/2018 - Present</span>
+**Technical Leader**, Duo Security <span class="right-float">12/2020 - Present</span>
+
+<ul class="job-description">
+	<li>Lead development on Duo's Passwordless SSO experience to leverage WebAuthn for more secure customer authentication.</li>
+	<li>Work across teams as Duo's WebAuthn SME to optimize WebAuthn implementations in Duo's core products.</li>
+	<li>Represent Cisco at the Web Authentication Working Group and FIDO Technical Working Group to advance the cause of phish-proof user authentication.</li>
+</ul>
+
+**Senior Full Stack Engineer**, BCG Digital Ventures <span class="right-float">11/2018 - 12/2020</span>
 
 <ul class="job-description">
 	<li>Collaborate with corporate partners from Fortune 100 companies to architect and rapidly build out scalable web-based MVPs.</li>
