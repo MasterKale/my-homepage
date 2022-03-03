@@ -181,7 +181,7 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 <p class="print-show spacer">&nbsp;<br><br><br><br></p>
 #### Projects
 
-**SimpleWebAuthn** <span class="right-float">https://simplewebauthn.dev/</span>
+**SimpleWebAuthn**, TypeScript WebAuthn Libraries <span class="right-float">https://github.com/MasterKale/SimpleWebAuthn</span>
 
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
