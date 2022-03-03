@@ -169,14 +169,6 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 	<li>Built out library of reusable front end components that helped skeleton crew of five developers deliver a complex mobile banking rewrite in less than 10 months.</li>
 </ul>
 
-**Full Stack Developer**, Multi Media Services <span class="right-float">05/2016 - 10/2016</span>
-
-<ul class="job-description">
-	<li>Single-handedly designed and produced the front end for white-label video streaming and image hosting web applications to operate at scale.</li>
-</ul>
-
-**Full Stack Developer**, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span>
-
 ---------
 <p class="print-show spacer">&nbsp;<br><br><br><br></p>
 #### Projects
