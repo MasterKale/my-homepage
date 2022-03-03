@@ -185,9 +185,9 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
-**Goon Discord Network**, Discord Server Directory <span class="right-float">https://goondiscordnetwork.com</span>
+**py_webauthn**, Python WebAuthn Library <span class="right-float">https://github.com/duo-labs/py_webauthn/</span>
 
-<p class="left-pad">Created a community of 100+ SA-affiliated Discord servers to make it easy for members to find servers populated with other forum members. The accompanying Discord bot has enabled over 13,000 members to verify forum membership to receive elevated access permissions across GDN-enrolled Discord servers. This enables administrators to easily maintain "members-only" servers in which the majority of participating members are forum members.</p>
+<p class="left-pad">Rebuilt Duo's py_webauthn library from the ground up incorporating the latest functionality in L2 of the WebAuthn spec.</p>
 
 **DV Mentors**, BCG Digital Ventures
 
