@@ -118,23 +118,28 @@ body .markdown-body
   padding: 0;
 }
 
-.markdown-body .codehilitetable {
+.markdown-body .codehilitetable,
+.markdown-body .highlighttable {
   border: 0;
   border-spacing: 0;
 }
 
-.markdown-body .codehilitetable tr {
+.markdown-body .codehilitetable tr,
+.markdown-body .highlighttable {
   border: 0;
 }
 
 .markdown-body .codehilitetable pre,
-.markdown-body .codehilitetable div.codehilite {
+.markdown-body .codehilitetable div.codehilite,
+.markdown-body .highlighttable pre,
+.markdown-body .highlighttable div.highlight {
   margin: 0;
 }
 
 .markdown-body .linenos,
 .markdown-body .code,
-.markdown-body .codehilitetable td {
+.markdown-body .codehilitetable td,
+.markdown-body .highlighttable td {
   border: 0;
   padding: 0;
 }
@@ -517,11 +522,13 @@ body .markdown-body
   border: 0;
 }
 
-.markdown-body .codehilite {
+.markdown-body .codehilite,
+.markdown-body .highlight {
   margin-bottom: 16px;
 }
 
 .markdown-body .codehilite pre,
+.markdown-body .highlight pre,
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
@@ -531,7 +538,8 @@ body .markdown-body
   border-radius: 3px;
 }
 
-.markdown-body .codehilite pre {
+.markdown-body .codehilite pre,
+.markdown-body .highlight pre {
   margin-bottom: 0;
   word-break: normal;
 }
@@ -993,68 +1001,68 @@ body .markdown-body
   }
 }
 </style><style>/*GitHub*/
-.codehilite {background-color:#fff;color:#333333;}
-.codehilite .hll {background-color:#ffffcc;}
-.codehilite .c{color:#999988;font-style:italic}
-.codehilite .err{color:#a61717;background-color:#e3d2d2}
-.codehilite .k{font-weight:bold}
-.codehilite .o{font-weight:bold}
-.codehilite .cm{color:#999988;font-style:italic}
-.codehilite .cp{color:#999999;font-weight:bold}
-.codehilite .c1{color:#999988;font-style:italic}
-.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
-.codehilite .gd{color:#000000;background-color:#ffdddd}
-.codehilite .ge{font-style:italic}
-.codehilite .gr{color:#aa0000}
-.codehilite .gh{color:#999999}
-.codehilite .gi{color:#000000;background-color:#ddffdd}
-.codehilite .go{color:#888888}
-.codehilite .gp{color:#555555}
-.codehilite .gs{font-weight:bold}
-.codehilite .gu{color:#800080;font-weight:bold}
-.codehilite .gt{color:#aa0000}
-.codehilite .kc{font-weight:bold}
-.codehilite .kd{font-weight:bold}
-.codehilite .kn{font-weight:bold}
-.codehilite .kp{font-weight:bold}
-.codehilite .kr{font-weight:bold}
-.codehilite .kt{color:#445588;font-weight:bold}
-.codehilite .m{color:#009999}
-.codehilite .s{color:#dd1144}
-.codehilite .n{color:#333333}
-.codehilite .na{color:teal}
-.codehilite .nb{color:#0086b3}
-.codehilite .nc{color:#445588;font-weight:bold}
-.codehilite .no{color:teal}
-.codehilite .ni{color:purple}
-.codehilite .ne{color:#990000;font-weight:bold}
-.codehilite .nf{color:#990000;font-weight:bold}
-.codehilite .nn{color:#555555}
-.codehilite .nt{color:navy}
-.codehilite .nv{color:teal}
-.codehilite .ow{font-weight:bold}
-.codehilite .w{color:#bbbbbb}
-.codehilite .mf{color:#009999}
-.codehilite .mh{color:#009999}
-.codehilite .mi{color:#009999}
-.codehilite .mo{color:#009999}
-.codehilite .sb{color:#dd1144}
-.codehilite .sc{color:#dd1144}
-.codehilite .sd{color:#dd1144}
-.codehilite .s2{color:#dd1144}
-.codehilite .se{color:#dd1144}
-.codehilite .sh{color:#dd1144}
-.codehilite .si{color:#dd1144}
-.codehilite .sx{color:#dd1144}
-.codehilite .sr{color:#009926}
-.codehilite .s1{color:#dd1144}
-.codehilite .ss{color:#990073}
-.codehilite .bp{color:#999999}
-.codehilite .vc{color:teal}
-.codehilite .vg{color:teal}
-.codehilite .vi{color:teal}
-.codehilite .il{color:#009999}
-.codehilite .gc{color:#999;background-color:#EAF2F5}
+.highlight {background-color:#fff;color:#333333;}
+.highlight .hll {background-color:#ffffcc;}
+.highlight .c{color:#999988;font-style:italic}
+.highlight .err{color:#a61717;background-color:#e3d2d2}
+.highlight .k{font-weight:bold}
+.highlight .o{font-weight:bold}
+.highlight .cm{color:#999988;font-style:italic}
+.highlight .cp{color:#999999;font-weight:bold}
+.highlight .c1{color:#999988;font-style:italic}
+.highlight .cs{color:#999999;font-weight:bold;font-style:italic}
+.highlight .gd{color:#000000;background-color:#ffdddd}
+.highlight .ge{font-style:italic}
+.highlight .gr{color:#aa0000}
+.highlight .gh{color:#999999}
+.highlight .gi{color:#000000;background-color:#ddffdd}
+.highlight .go{color:#888888}
+.highlight .gp{color:#555555}
+.highlight .gs{font-weight:bold}
+.highlight .gu{color:#800080;font-weight:bold}
+.highlight .gt{color:#aa0000}
+.highlight .kc{font-weight:bold}
+.highlight .kd{font-weight:bold}
+.highlight .kn{font-weight:bold}
+.highlight .kp{font-weight:bold}
+.highlight .kr{font-weight:bold}
+.highlight .kt{color:#445588;font-weight:bold}
+.highlight .m{color:#009999}
+.highlight .s{color:#dd1144}
+.highlight .n{color:#333333}
+.highlight .na{color:teal}
+.highlight .nb{color:#0086b3}
+.highlight .nc{color:#445588;font-weight:bold}
+.highlight .no{color:teal}
+.highlight .ni{color:purple}
+.highlight .ne{color:#990000;font-weight:bold}
+.highlight .nf{color:#990000;font-weight:bold}
+.highlight .nn{color:#555555}
+.highlight .nt{color:navy}
+.highlight .nv{color:teal}
+.highlight .ow{font-weight:bold}
+.highlight .w{color:#bbbbbb}
+.highlight .mf{color:#009999}
+.highlight .mh{color:#009999}
+.highlight .mi{color:#009999}
+.highlight .mo{color:#009999}
+.highlight .sb{color:#dd1144}
+.highlight .sc{color:#dd1144}
+.highlight .sd{color:#dd1144}
+.highlight .s2{color:#dd1144}
+.highlight .se{color:#dd1144}
+.highlight .sh{color:#dd1144}
+.highlight .si{color:#dd1144}
+.highlight .sx{color:#dd1144}
+.highlight .sr{color:#009926}
+.highlight .s1{color:#dd1144}
+.highlight .ss{color:#990073}
+.highlight .bp{color:#999999}
+.highlight .vc{color:teal}
+.highlight .vg{color:teal}
+.highlight .vi{color:teal}
+.highlight .il{color:#009999}
+.highlight .gc{color:#999;background-color:#EAF2F5}
 </style><title>Matthew Miller - Resume</title></head><body><article class="markdown-body"><!--
     Rendered with MarkdownPreview in Sublime Text 3 (https://github.com/facelessuser/MarkdownPreview)
     - Command Palette > "Markdown Preview: Save to HTML" > "markdown"
@@ -1100,7 +1108,7 @@ body .markdown-body
     /*.markdown-body .job-description { list-style-type: '👾'; }*/
 
     /**
-     * - PNG icons from https://www.flaticon.com/packs/font-awesome
+     * - PNG icons from https://www.flaticon.com/packs/font-awesome (16 x 16)
      * - PNG converted to base64 with https://www.base64-image.de/
      */
     span#github::before {
@@ -1113,6 +1121,10 @@ body .markdown-body
 
     span#linkedin::before {
         content:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiBREQLip7h8wpAAAAq0lEQVQoz43RsUrDUBjF8R9tsgiCkNK12QxOHRyd6uqQV7jQhxDdBEcfSHBzEEneQxeHItQtt0MVg96QnjN+f8534JALGjHhRpATkscfBxpR59VmIEUU3eE0nTEBJ5gZ0J581w20EEUPKpeiWuXGWuHKYx+4RilaIpODI1+/HfpaePOMrSf4D6wULszxkgam3w/o0sAfjQKZ1rla6Ri3PpyBe5+WaA8Ya2TuHXoLfqgaNHiGAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTA1LTE3VDE2OjQ2OjQyKzAyOjAwvh4tdQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNS0xN1QxNjo0Njo0MiswMjowMM9DlckAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC');
+    }
+
+    span#twitter::before {
+        content:   url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAgQAAAIEBHRF40wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADgSURBVDiNpdMxSkNBEMbx3/P5rMRLiMTCxgPYmUJQtLBME7D1BhbeIW0g2HsFi9im8hI2FjaCCOrabGDf5rkmcWBgZ3b/38wyu9BgiBnCkj6LTCMulgVzH1qx8kInVVysbRtZ/IDvLDfFEQ4xwiQXSVvaxwle01wIwdwxwFuy3xK4ioe2cYbbFI57jxnTCi5yoEPguSRwj50C3LM4iVbwhdOCwPgvgYAn9DvgyzihXwU+cIdj1AnY4BrvHXDYTMa5FeEX7FVVVeMg5nbz2af2r6dc4xPnpQoFu5nfce3v/AOsiPNDxnx0iwAAAABJRU5ErkJggg==');
     }
 
     .text-center {
@@ -1161,6 +1173,10 @@ body .markdown-body
             content: 'LinkedIn: ';
         }
 
+        span#twitter::before {
+            content: 'Twitter: ';
+        }
+
         .print-hide {
             display: none;
         }
@@ -1182,27 +1198,32 @@ body .markdown-body
             <a href="https://github.com/MasterKale" target="_blank">MasterKale</a>
         </li>
         <li>
-            <span id="linkedin"></span>
-            <a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
+            <span id="twitter"></span>
+            <a href="https://twitter.com/IAmKale" target="_blank">@IAmKale</a>
         </li>
         <li>
-            <span id="so"></span>
-            <a href="http://stackoverflow.com/users/2133271/iamkale" target="_blank">IAmKale</a>
+            <span id="linkedin"></span>
+            <a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
         </li>
     </ul>
 </div>
 
 <hr />
 <h4 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link"></a></h4>
-<p>On the search for opportunities to build cool things and mentor those starting out.</p>
+<p>A full stack fan of WebAuthn; ever mindful of user privacy and the developer experience.</p>
 <hr />
 <h4 id="skills-expertise">Skills &amp; Expertise<a class="headerlink" href="#skills-expertise" title="Permanent link"></a></h4>
-<p><strong>Languages</strong> <span class="right-float">JavaScript (ES6), TypeScript, HTML5, SCSS, Python, YAML, GraphQL</span>
-<br>
-<strong>Frameworks</strong> <span class="right-float">React, VueJS, Apollo, MobX, Webpack, Django, Docker</span></p>
+<p><strong>Technologies</strong> <span class="right-float">WebAuthn, TypeScript, Python, Docker</span></p>
 <hr />
 <h4 id="work-history">Work History<a class="headerlink" href="#work-history" title="Permanent link"></a></h4>
-<p><strong>Senior Full Stack Engineer</strong>, BCG Digital Ventures <span class="right-float">11/2018 - Present</span></p>
+<p><strong>Technical Leader</strong>, Duo Security <span class="right-float">12/2020 - Present</span></p>
+<ul class="job-description">
+    <li>Lead development on Duo's Passwordless SSO experience to leverage WebAuthn for more secure customer authentication.</li>
+    <li>Work across teams as Duo's WebAuthn SME to optimize WebAuthn implementations in Duo's core products.</li>
+    <li>Represent Cisco at the Web Authentication Working Group and FIDO Technical Working Group to advance the cause of phish-proof user authentication.</li>
+</ul>
+
+<p><strong>Senior Full Stack Engineer</strong>, BCG Digital Ventures <span class="right-float">11/2018 - 12/2020</span></p>
 <ul class="job-description">
     <li>Collaborate with corporate partners from Fortune 100 companies to architect and rapidly build out scalable web-based MVPs.</li>
     <li>Worked directly with Product and Design to define and then build out an interface for real-time configuration of a computer-vision-powered industrial safety system.</li>
@@ -1215,26 +1236,21 @@ body .markdown-body
     <li>Built out library of reusable front end components that helped skeleton crew of five developers deliver a complex mobile banking rewrite in less than 10 months.</li>
 </ul>
 
-<p><strong>Full Stack Developer</strong>, Multi Media Services <span class="right-float">05/2016 - 10/2016</span></p>
-<ul class="job-description">
-    <li>Single-handedly designed and produced the front end for white-label video streaming and image hosting web applications to operate at scale.</li>
-</ul>
-
-<p><strong>Full Stack Developer</strong>, STS Innovation, Inc. <span class="right-float">07/2014 - 05/2016</span></p>
 <hr />
-<p><p class="print-show spacer">&nbsp;<br><br><br><br></p></p>
+<p><p class="print-show spacer">&nbsp;<br><br><br></p></p>
 <h4 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link"></a></h4>
-<p><strong>SimpleWebAuthn</strong> <span class="right-float"><a href="https://simplewebauthn.dev/">https://simplewebauthn.dev/</a></span></p>
+<p><strong>SimpleWebAuthn</strong>, TypeScript WebAuthn Libraries <span class="right-float"><a class="magiclink magiclink-github magiclink-repository" href="https://github.com/MasterKale/SimpleWebAuthn" title="GitHub Repository: MasterKale/SimpleWebAuthn">MasterKale/SimpleWebAuthn</a></span></p>
 <p class="left-pad">Authored and maintain a collection of TypeScript-first libraries for simpler WebAuthn integration in both modern browsers and Node. Enables server administrators to easily add secure "passwordless" login capabilities for cryptographic hardware-backed access control.</p>
 
-<p><strong>Goon Discord Network</strong>, Discord Server Directory <span class="right-float"><a href="https://goondiscordnetwork.com">https://goondiscordnetwork.com</a></span></p>
-<p class="left-pad">Created a community of 100+ SA-affiliated Discord servers to make it easy for members to find servers populated with other forum members. The accompanying Discord bot has enabled over 13,000 members to verify forum membership to receive elevated access permissions across GDN-enrolled Discord servers. This enables administrators to easily maintain "members-only" servers in which the majority of participating members are forum members.</p>
+<p><strong>py_webauthn</strong>, Python WebAuthn Library <span class="right-float"><a class="magiclink magiclink-github magiclink-repository" href="https://github.com/duo-labs/py_webauthn/" title="GitHub Repository: duo-labs/py_webauthn">duo-labs/py_webauthn</a></span></p>
+<p class="left-pad">Rebuilt Duo's py_webauthn library from the ground up incorporating the latest functionality in L2 of the WebAuthn spec.</p>
 
 <p><strong>DV Mentors</strong>, BCG Digital Ventures</p>
 <p class="left-pad">Participated as a mentor in an annual mentoring partnership between BCG Digital Ventures and Bright Star Schools, sponsored this year by the LA Kings. Worked with my mentee for five months to utilize DV's methodology to help them imagine, develop, and pitch their own idea to "improve your community with technology".</p>
 
-<p><strong>Public Speaking</strong>
-<p class="left-pad">Independently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p></p>
+<p><strong>Public Speaking</strong></p>
+<p class="left-pad">Independently deliver technical talks at developer meetups on topics including React Hooks, GraphQL, and WebAuthn.</p>
+
 <!-- ---------
 #### Favorite Games
 
