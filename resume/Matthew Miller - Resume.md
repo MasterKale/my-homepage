@@ -149,9 +149,7 @@ A full stack fan of WebAuthn; ever mindful of user privacy and the developer exp
 ---------
 #### Skills & Expertise
 
-**Languages** <span class="right-float">JavaScript (ES6), TypeScript, HTML5, SCSS, Python, YAML, GraphQL</span>
-<br>
-**Frameworks** <span class="right-float">React, VueJS, Apollo, MobX, Webpack, Django, Docker</span>
+**Technologies** <span class="right-float">WebAuthn, TypeScript, Python, Docker</span>
 
 ---------
 #### Work History
