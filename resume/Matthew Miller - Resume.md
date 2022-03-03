@@ -144,7 +144,7 @@
 ---------
 #### Objective
 
-On the search for opportunities to build cool things and mentor those starting out.
+A full stack fan of WebAuthn; ever mindful of user privacy and the developer experience.
 
 ---------
 #### Skills & Expertise
