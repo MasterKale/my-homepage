@@ -57,6 +57,10 @@
 		content:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiBREQLip7h8wpAAAAq0lEQVQoz43RsUrDUBjF8R9tsgiCkNK12QxOHRyd6uqQV7jQhxDdBEcfSHBzEEneQxeHItQtt0MVg96QnjN+f8534JALGjHhRpATkscfBxpR59VmIEUU3eE0nTEBJ5gZ0J581w20EEUPKpeiWuXGWuHKYx+4RilaIpODI1+/HfpaePOMrSf4D6wULszxkgam3w/o0sAfjQKZ1rla6Ri3PpyBe5+WaA8Ya2TuHXoLfqgaNHiGAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTA1LTE3VDE2OjQ2OjQyKzAyOjAwvh4tdQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNS0xN1QxNjo0Njo0MiswMjowMM9DlckAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC');
 	}
 
+	span#twitter::before {
+		content:   url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAgQAAAIEBHRF40wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADgSURBVDiNpdMxSkNBEMbx3/P5rMRLiMTCxgPYmUJQtLBME7D1BhbeIW0g2HsFi9im8hI2FjaCCOrabGDf5rkmcWBgZ3b/38wyu9BgiBnCkj6LTCMulgVzH1qx8kInVVysbRtZ/IDvLDfFEQ4xwiQXSVvaxwle01wIwdwxwFuy3xK4ioe2cYbbFI57jxnTCi5yoEPguSRwj50C3LM4iVbwhdOCwPgvgYAn9DvgyzihXwU+cIdj1AnY4BrvHXDYTMa5FeEX7FVVVeMg5nbz2af2r6dc4xPnpQoFu5nfce3v/AOsiPNDxnx0iwAAAABJRU5ErkJggg==');
+	}
+
 	.text-center {
 		text-align: center;
 	}
@@ -103,6 +107,10 @@
 			content: 'LinkedIn: ';
 		}
 
+		span#twitter::before {
+			content: 'Twitter: ';
+		}
+
 		.print-hide {
 			display: none;
 		}
@@ -123,12 +131,12 @@
 			<a href="https://github.com/MasterKale" target="_blank">MasterKale</a>
 		</li>
 		<li>
-			<span id="linkedin"></span>
-			<a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
+			<span id="twitter"></span>
+			<a href="https://twitter.com/IAmKale" target="_blank">@IAmKale</a>
 		</li>
 		<li>
-			<span id="so"></span>
-			<a href="http://stackoverflow.com/users/2133271/iamkale" target="_blank">IAmKale</a>
+			<span id="linkedin"></span>
+			<a href="https://www.linkedin.com/in/IAmMatthewMiller/" target="_blank">IAmMatthewMiller</a>
 		</li>
 	</ul>
 </div>
