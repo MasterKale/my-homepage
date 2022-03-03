@@ -42,7 +42,7 @@
 	/*.markdown-body .job-description { list-style-type: '👾'; }*/
 
 	/**
-	 * - PNG icons from https://www.flaticon.com/packs/font-awesome
+	 * - PNG icons from https://www.flaticon.com/packs/font-awesome (16 x 16)
 	 * - PNG converted to base64 with https://www.base64-image.de/
 	 */
 	span#github::before {
